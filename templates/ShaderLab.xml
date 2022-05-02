@@ -1,0 +1,99 @@
+<templateSet group="ShaderLab">
+  <template name="sproprange" value="$var$(&quot;$desc$&quot;, Range($val1$, $val2$)) = $default$" description="Shader prorperty : Range" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="spaceSeparated(regularExpression(var, &quot;_&quot;, &quot;&quot;))" defaultValue="" alwaysStopAt="true" />
+    <variable name="val1" expression="" defaultValue="&quot;0.&quot;" alwaysStopAt="true" />
+    <variable name="val2" expression="" defaultValue="&quot;1.&quot;" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="&quot;0.5&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="sprop2d" value="$var$(&quot;$desc$&quot;, 2D) = &quot;white&quot; {}" description="Shader prorperty : 2D" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="spaceSeparated(regularExpression(var, &quot;_&quot;, &quot;&quot;))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="sprop3d" value="$var$(&quot;$desc$&quot;, 3D) = &quot;white&quot; {}" description="Shader prorperty : 3D" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="spaceSeparated(regularExpression(var, &quot;_&quot;, &quot;&quot;))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="spropcube" value="$var$(&quot;$desc$&quot;, spropcube) = &quot;white&quot; {}" description="Shader prorperty : CUBE" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="spaceSeparated(regularExpression(var, &quot;_&quot;, &quot;&quot;))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="sproprvector" value="$var$(&quot;$desc$&quot;, Vector) = $default$" description="Shader prorperty : Vector" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="spaceSeparated(regularExpression(var, &quot;_&quot;, &quot;&quot;))" defaultValue="" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="&quot;(0., 0., 0., 0.)&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="spropcolor" value="$var$(&quot;$desc$&quot;, Color) = $default$" description="Shader prorperty : Color" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="spaceSeparated(regularExpression(var, &quot;_&quot;, &quot;&quot;))" defaultValue="" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="&quot;(0., 0., 0., 0.)&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="spropfloat" value="$var$(&quot;$desc$&quot;, Float) = $default$" description="Shader prorperty : Range" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="spaceSeparated(regularExpression(var, &quot;_&quot;, &quot;&quot;))" defaultValue="" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="&quot;0.5&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
