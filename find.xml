@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…\Noneb.Jet.Analyzer\HelloWorldGenerator.cs'" />
-    <option name="defaultScopeName" value="File '…\Noneb.Jet.Analyzer\HelloWorldGenerator.cs'" />
-    <option name="SEARCH_SCOPE" value="File '…\Noneb.Jet.Analyzer\HelloWorldGenerator.cs'" />
+    <option name="customScope" value="Directory 'Coffee'" />
+    <option name="defaultScopeName" value="Directory 'Coffee'" />
+    <option name="SEARCH_SCOPE" value="Directory 'Coffee'" />
   </component>
 </application>
