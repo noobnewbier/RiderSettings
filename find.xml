@@ -1,8 +1,7 @@
 <application>
   <component name="FindSettings">
-    <mask>*.css</mask>
-    <mask>*.html</mask>
-    <mask>*.xml</mask>
-    <mask>*.cs</mask>
+    <option name="customScope" value="File '…\Noneb.Jet.Analyzer\ComponentsGenerator.cs'" />
+    <option name="defaultScopeName" value="File '…\Noneb.Jet.Analyzer\ComponentsGenerator.cs'" />
+    <option name="SEARCH_SCOPE" value="File '…\Noneb.Jet.Analyzer\ComponentsGenerator.cs'" />
   </component>
 </application>
