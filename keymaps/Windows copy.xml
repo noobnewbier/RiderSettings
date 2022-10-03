@@ -5,4 +5,11 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="ChangesView.ToggleCommitUi" />
+  <action id="CheckinProject" />
+  <action id="Git.Commit.Stage" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl tab" />
+  </action>
+  <action id="RiderCoveringTestsPopupCoverAllAction" />
 </keymap>
