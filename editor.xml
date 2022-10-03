@@ -1,6 +1,5 @@
 <application>
   <component name="CodeInsightSettings">
-    <option name="completionCaseSensitive" value="2" />
     <option name="selectAutopopupSuggestionsByChars" value="true" />
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
@@ -28,10 +27,6 @@
     <option name="aliasQualification" value="Always" />
     <option name="namespaceQualification" value="Always" />
     <option name="tableQualification" value="Always" />
-  </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
   </component>
   <component name="YamlEditorOptions">
     <option name="useSmartPaste" value="false" />
