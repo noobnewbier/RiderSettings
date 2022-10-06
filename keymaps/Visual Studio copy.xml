@@ -49,6 +49,10 @@
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.Execute" />
   <action id="Console.TableResult.Submit" />
+  <action id="ContextHelp">
+    <keyboard-shortcut first-keystroke="f1" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl e" />
+  </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
@@ -156,9 +160,7 @@
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl i" />
   </action>
-  <action id="ReSharperGotoNextErrorInSolution">
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl e" />
-  </action>
+  <action id="ReSharperGotoNextErrorInSolution" />
   <action id="ReSharperMoveStatementLeft">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="left" />
   </action>
@@ -168,6 +170,7 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
   </action>
+  <action id="RiderCoveringTestsPopupCoverAllAction" />
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="d" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl d" />
