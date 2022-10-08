@@ -10,7 +10,8 @@
     </option>
   </component>
   <component name="Vcs.Log.App.Settings">
-    <option name="COMPACT_REFERENCES_VIEW" value="false" />
+    <option name="SHOW_TAG_NAMES" value="true" />
+    <option name="LABELS_LEFT_ALIGNED" value="true" />
     <option name="COLUMN_ID_ORDER">
       <list>
         <option value="Default.Root" />
@@ -18,7 +19,13 @@
         <option value="Default.Author" />
         <option value="Default.Date" />
         <option value="Space.CommitStatus" />
+        <option value="Default.Hash" />
       </list>
+    </option>
+    <option name="COLUMN_ID_VISIBILITY">
+      <map>
+        <entry key="Table.Default.Hash.ColumnIdVisibility" value="true" />
+      </map>
     </option>
   </component>
   <component name="VcsApplicationSettings">
