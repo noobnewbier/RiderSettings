@@ -11,6 +11,10 @@
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id="ActivateProblemsViewToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl e" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
@@ -52,10 +56,6 @@
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.Execute" />
   <action id="Console.TableResult.Submit" />
-  <action id="ContextHelp">
-    <keyboard-shortcut first-keystroke="f1" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl e" />
-  </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
