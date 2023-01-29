@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…\Assets\Code\UnityUtils\Editor\NonebGUIStyle.cs'" />
-    <option name="defaultScopeName" value="File '…\Assets\Code\UnityUtils\Editor\NonebGUIStyle.cs'" />
-    <option name="SEARCH_SCOPE" value="File '…\Assets\Code\UnityUtils\Editor\NonebGUIStyle.cs'" />
+    <option name="customScope" value="File '…\Assets\Code\NonebNi\LevelEditor\Level\Data\EditorLevelData.cs'" />
+    <option name="defaultScopeName" value="File '…\Assets\Code\NonebNi\LevelEditor\Level\Data\EditorLevelData.cs'" />
+    <option name="SEARCH_SCOPE" value="File '…\Assets\Code\NonebNi\LevelEditor\Level\Data\EditorLevelData.cs'" />
   </component>
 </application>
