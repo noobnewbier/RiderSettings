@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…\Assets\Code\NonebNi\LevelEditor\NonebEditor.cs'" />
-    <option name="defaultScopeName" value="File '…\Assets\Code\NonebNi\LevelEditor\NonebEditor.cs'" />
-    <option name="SEARCH_SCOPE" value="File '…\Assets\Code\NonebNi\LevelEditor\NonebEditor.cs'" />
+    <option name="customScope" value="File '…\Assets\Code\NonebNi\Core\Commands\Handlers\ActionCommandHandler.cs'" />
+    <option name="defaultScopeName" value="File '…\Assets\Code\NonebNi\Core\Commands\Handlers\ActionCommandHandler.cs'" />
+    <option name="SEARCH_SCOPE" value="File '…\Assets\Code\NonebNi\Core\Commands\Handlers\ActionCommandHandler.cs'" />
   </component>
 </application>
